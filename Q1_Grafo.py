@@ -53,7 +53,7 @@ class Grafo:
     def rotulo(self, v):
         return v.rotulo
 
-    # Retorna os vizinhos de v
+    # Retorna os vértices vizinhos de v
     def vizinhos(self, v):
         vizinhos = []
         for e in self.arestas:
@@ -62,6 +62,14 @@ class Grafo:
                     vizinhos.append(e.vertices[1])
                 else:
                     vizinhos.append(e.vertices[0])
+        return vizinhos
+
+    # Retorna as arestas conectadas a v
+    def arestasVizinhos(self, v):
+        vizinhos = []
+        for e in self.arestas:
+            if v in e.vertices:
+                vizinhos.append(e)
         return vizinhos
 
     # Se existe aresta entre u e v, retorna verdadeiro, senão, retorna falso
