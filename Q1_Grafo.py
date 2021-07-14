@@ -85,6 +85,8 @@ class Grafo:
 
     # Retorna o peso da aresta {u, v}, se não existir, retorna infinito positivo
     def peso(self, u, v):
+        if u == v:
+            return 0
         for e in self.arestas:
             if u in e.vertices and v in e.vertices:
                 return e.peso
@@ -106,6 +108,6 @@ class Grafo:
 
         for linha in arq:
             u, v, peso = linha.split()
-            self.inserirAresta(self.obterVertice(u), self.obterVertice(v), float(peso))
+            self.inserirAresta(self.obterVertice(u), self.obterVertice(v), int(peso))
 
         arq.close()
