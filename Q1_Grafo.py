@@ -18,6 +18,9 @@ class Grafo:
         self.vertices = []
         self.arestas = []
 
+    def obterArestas(self):
+        return self.arestas
+
     # Retorna o índice do vértice v
     def indice(self, v):
         return v.indice
