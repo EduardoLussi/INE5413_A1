@@ -104,6 +104,6 @@ class Grafo:
 
         for linha in arq:
             u, v, peso = linha.split()
-            self.inserirAresta(self.obterVertice(u), self.obterVertice(v), int(peso))
+            self.inserirAresta(self.obterVertice(u), self.obterVertice(v), float(peso))
 
         arq.close()

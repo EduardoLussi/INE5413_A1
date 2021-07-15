@@ -144,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q5_FloydWarshall">
+  <component name="RunManager" selected="Python.Q3_Ciclo-Euleriano">
     <configuration name="Q1_Grafo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="A1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,8 +231,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q5_FloydWarshall" />
         <item itemvalue="Python.Q3_Ciclo-Euleriano" />
+        <item itemvalue="Python.Q5_FloydWarshall" />
         <item itemvalue="Python.Q2_Busca_em_Largura" />
         <item itemvalue="Python.Q1_Grafo" />
       </list>
