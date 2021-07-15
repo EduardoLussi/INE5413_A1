@@ -18,13 +18,6 @@ class Grafo:
         self.vertices = []
         self.arestas = []
 
-    def obterArestas(self):
-        return self.arestas
-
-    # Retorna o índice do vértice v
-    def indice(self, v):
-        return v.indice
-
     # Insere um vértice v já criado
     def inserirVertice(self, v):
         self.vertices.append(v)

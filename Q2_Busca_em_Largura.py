@@ -24,8 +24,8 @@ def buscaLargura(grafo, origem):
         aux = fila.get()
         n = grafo.vizinhos(aux)
         for v in n:
-            vIndex = grafo.indice(v) - 1
-            auxIndex = grafo.indice(aux) - 1
+            vIndex = v.indice - 1
+            auxIndex = aux.indice - 1
             if not(c[vIndex]):
                 c[vIndex] = True
                 d[vIndex] = d[auxIndex] + 1
