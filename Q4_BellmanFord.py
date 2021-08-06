@@ -36,6 +36,3 @@ def listarAncestrais(origem, ancestrais):
         return listarAncestrais(ancestralAtual, ancestrais) + origem.rotulo + ","
 
 
-grafo = Grafo()
-grafo.ler("GrafosTeste/fln_pequena.net")   # Diretório do arquivo do grafo
-bellmanFord(grafo, 1)

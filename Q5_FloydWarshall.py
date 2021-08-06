@@ -25,7 +25,3 @@ def FloydWarshall(grafo):
 
     printSolution(D)
 
-
-grafo = Grafo()
-grafo.ler("GrafosTeste/fln_pequena.net")   # Diretório do arquivo do grafo
-FloydWarshall(grafo)

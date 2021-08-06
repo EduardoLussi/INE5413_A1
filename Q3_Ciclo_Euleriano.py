@@ -87,7 +87,3 @@ def CicloEuleriano(grafo):
     else:
         print(0)
 
-
-grafo = Grafo()
-grafo.ler("GrafosTeste/ContemCicloEuleriano.net")   # Diretório do arquivo do grafo
-CicloEuleriano(grafo)
